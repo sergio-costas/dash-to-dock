@@ -198,6 +198,7 @@ const DockAbstractAppIcon = GObject.registerClass({
             else
                 icon.set_opacity(255);
         });
+
         this._urgentWindows = new Set();
         this._progressOverlayArea = null;
         this._progress = 0;
